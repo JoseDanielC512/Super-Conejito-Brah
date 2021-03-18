@@ -20,6 +20,9 @@ TextureImporter:
   - first:
       213: -7310867040226725890
     second: brick0
+  - first:
+      213: 4987337381440321552
+    second: tree1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -234,7 +237,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -242,6 +245,27 @@ TextureImporter:
       bones: []
       spriteID: effac2b59259a8a90800000000000000
       internalID: -7310867040226725890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree1
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 0
+        width: 87
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018f6c3ace4963540800000000000000
+      internalID: 4987337381440321552
       vertices: []
       indices: 
       edges: []
