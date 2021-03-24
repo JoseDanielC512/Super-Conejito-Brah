@@ -80,5 +80,9 @@ public class PlayerController2D : GameActorController
             gameObject.SetActive(false);
             GameManager.Instance.UpdateLives(-1);
         }
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Finish"))
+        {
+            UIManager.Instance.ShowFinishText();
+        }
     }
 }

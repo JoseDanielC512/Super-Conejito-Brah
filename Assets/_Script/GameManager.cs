@@ -45,6 +45,7 @@ public class GameManager : MonoBehaviour
     {
         if (_isStart)
         {
+            UIManager.Instance.HideFinishText();
             UIManager.Instance.ShowInitText();
             UIManager.Instance.ShowTextStart();
             if (Input.GetButtonDown("Submit"))
@@ -56,6 +57,7 @@ public class GameManager : MonoBehaviour
         }
         if (_isGameOver)
         {
+            UIManager.Instance.HideFinishText();
             UIManager.Instance.ShowGameOver();
             UIManager.Instance.ShowTextStart();
             if (Input.GetButtonDown("Submit"))
@@ -84,6 +86,12 @@ public class GameManager : MonoBehaviour
 
     public void AddCoin(){
         _coinCount++;
+        if (_coinCount == 5)
+        {
+            _coinCount = 0;
+            _livesCount++;
+            UIManager.Instance.UpdateLives(_livesCount);
+        }
     }
 
     public void UpdateLives(int lives){

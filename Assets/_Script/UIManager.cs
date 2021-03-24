@@ -11,6 +11,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] Text gameOverText;
     [SerializeField] Text InitText;
     [SerializeField] Text startText;
+    [SerializeField] Text finishText;
     [SerializeField] Text playerLivesText;
     [SerializeField] Text playerCoinsText;
     [SerializeField] Text playerTime;
@@ -50,6 +51,14 @@ public class UIManager : MonoBehaviour
     public void HideInitText()
     {
         InitText.gameObject.SetActive(false);
+    }
+    public void ShowFinishText()
+    {
+        finishText.gameObject.SetActive(true);
+    }
+    public void HideFinishText()
+    {
+        finishText.gameObject.SetActive(false);
     }
     public void ShowTextStart()
     {
