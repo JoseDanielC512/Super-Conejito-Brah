@@ -19,11 +19,28 @@ public class PatrolEnemyController2D : GameActorController
     new void Update()
     {
        base.Update();
-       _vx = 0;
+       _vx = -1;
 
        if (stompCheck.IsStomped)
        {
            gameObject.SetActive(false);
        }
+    }
+    
+    void OnCollisionEnter2D(Collision2D collision){
+        if (collision.gameObject.layer == LayerMask.NameToLayer("PlayerBullets"))
+        {
+            gameObject.SetActive(false);
+        }
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Ground") || collision.gameObject.layer == LayerMask.NameToLayer("Enemies"))
+        {
+            if (_vx == -1)
+            {
+                _vx = 1;
+            }else if (_vx == 1)
+            {
+                _vx = -1;
+            }
+        }
     }
 }

@@ -15,6 +15,5 @@ public class CoinController : MonoBehaviour
             this.gameObject.SetActive(false);
 
         }
-    }
-    
+    }    
 }
