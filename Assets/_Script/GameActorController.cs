@@ -39,6 +39,7 @@ public class GameActorController : MonoBehaviour
     protected bool _isRunning = false;
     protected bool _isAttacking = false;
     protected bool _isJumping = false;
+    protected bool _isShooting = false;
     protected float _vx;
     protected float _vy;
 

@@ -9,8 +9,11 @@ public class UIManager : MonoBehaviour
 
     #region Inspector Properties
     [SerializeField] Text gameOverText;
-    [SerializeField] TMPro.TMP_Text playerLivesText;
-    [SerializeField] TMPro.TMP_Text playerCoinsText;
+    [SerializeField] Text InitText;
+    [SerializeField] Text startText;
+    [SerializeField] Text playerLivesText;
+    [SerializeField] Text playerCoinsText;
+    [SerializeField] Text playerTime;
     #endregion
     
     void Awake()
@@ -36,6 +39,26 @@ public class UIManager : MonoBehaviour
     {
         gameOverText.gameObject.SetActive(true);
     }
+    public void HideGameOver()
+    {
+        gameOverText.gameObject.SetActive(false);
+    }
+    public void ShowInitText()
+    {
+        InitText.gameObject.SetActive(true);
+    }
+    public void HideInitText()
+    {
+        InitText.gameObject.SetActive(false);
+    }
+    public void ShowTextStart()
+    {
+        startText.gameObject.SetActive(true);
+    }
+    public void HideTextStart()
+    {
+        startText.gameObject.SetActive(false);
+    }
 
     public void UpdateLives(int lives)
     {
@@ -46,4 +69,10 @@ public class UIManager : MonoBehaviour
     {
         playerCoinsText.text = "x " + coins;
     }
+
+    public void UpdateTime(int tiempo)
+    {
+        playerTime.text = "Time " + tiempo;
+    }   
+    
 }

@@ -26,4 +26,11 @@ public class PatrolEnemyController2D : GameActorController
            gameObject.SetActive(false);
        }
     }
+    
+    void OnCollisionEnter2D(Collision2D collision){
+        if (collision.gameObject.layer == LayerMask.NameToLayer("PlayerBullets"))
+        {
+            gameObject.SetActive(false);
+        }
+    }
 }
