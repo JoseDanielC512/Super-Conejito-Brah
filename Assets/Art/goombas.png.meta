@@ -1,31 +1,16 @@
 fileFormatVersion: 2
-guid: ee23e54e9aac2754d9459802f36fc0c3
+guid: 3930dfcc79ee0864995f9686a88014cb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7942859758497058819
-    second: mage_run1
+      213: 7616312185715483943
+    second: goombas_0
   - first:
-      213: -8264115743566107377
-    second: mage_run2
+      213: 7364496335103305741
+    second: goombas_1
   - first:
-      213: 614612479991651576
-    second: mage_run3
-  - first:
-      213: 8559004302656757028
-    second: mage_run4
-  - first:
-      213: -3511554375592389000
-    second: mage_run5
-  - first:
-      213: 1131778935446561468
-    second: mage_run6
-  - first:
-      213: 6026528049468277632
-    second: mage_run7
-  - first:
-      213: 1028422452915693757
-    second: mage_run8
+      213: 8892138692263084491
+    second: goombas_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -127,97 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mage_run1
+      name: goombas_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 94
-        width: 79
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 30056f50ed4ba3e60800000000000000
-      internalID: 7942859758497058819
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mage_run2
-      rect:
-        serializedVersion: 2
-        x: 89
-        y: 94
-        width: 79
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f0d67023486ff4d80800000000000000
-      internalID: -8264115743566107377
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mage_run3
-      rect:
-        serializedVersion: 2
-        x: 172
-        y: 94
-        width: 82
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8fc9c605bca878800800000000000000
-      internalID: 614612479991651576
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mage_run4
-      rect:
-        serializedVersion: 2
-        x: 255
-        y: 94
-        width: 85
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 42d55e2d011b7c670800000000000000
-      internalID: 8559004302656757028
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mage_run5
-      rect:
-        serializedVersion: 2
-        x: 2
+        x: 1
         y: 0
-        width: 82
-        height: 94
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,20 +126,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 876d85186e3744fc0800000000000000
-      internalID: -3511554375592389000
+      spriteID: 725ec08749392b960800000000000000
+      internalID: 7616312185715483943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mage_run6
+      name: goombas_1
       rect:
         serializedVersion: 2
-        x: 85
+        x: 211
         y: 0
-        width: 81
-        height: 94
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,20 +147,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb2ef8302f2e4bf00800000000000000
-      internalID: 1131778935446561468
+      spriteID: d08af73e562f33660800000000000000
+      internalID: 7364496335103305741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mage_run7
+      name: goombas_2
       rect:
         serializedVersion: 2
-        x: 172
-        y: 0
-        width: 82
-        height: 94
+        x: 421
+        y: 20
+        width: 160
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,29 +168,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0830c71c45782a350800000000000000
-      internalID: 6026528049468277632
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mage_run8
-      rect:
-        serializedVersion: 2
-        x: 259
-        y: 0
-        width: 81
-        height: 94
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: db86319a5c0b54e00800000000000000
-      internalID: 1028422452915693757
+      spriteID: bc109dd2709376b70800000000000000
+      internalID: 8892138692263084491
       vertices: []
       indices: 
       edges: []

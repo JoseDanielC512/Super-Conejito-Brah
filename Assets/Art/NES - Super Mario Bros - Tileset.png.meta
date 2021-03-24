@@ -1,91 +1,85 @@
 fileFormatVersion: 2
-guid: 37411ee55d4025849b20d4e20f5d4804
+guid: 4d4341a59e403cb4a8d7dff63b24e5ca
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 909444148276766886
-    second: ground1
+      213: -7683969000865734668
+    second: "bloque_monta\xF1a"
   - first:
-      213: -3344568106538371541
-    second: ground2
+      213: 6250903187486554728
+    second: castle0
   - first:
-      213: -3634398366838870730
-    second: ground3
+      213: -3696792036293649751
+    second: castle1
   - first:
-      213: -1850680290757873719
-    second: ground4
+      213: 6218777454733123929
+    second: castle2
   - first:
-      213: 1705411122146539360
-    second: ground5
+      213: -8342522315490005489
+    second: castle3
   - first:
-      213: -7310867040226725890
-    second: brick0
+      213: 4271983250218139871
+    second: castle4
   - first:
-      213: 4987337381440321552
-    second: tree0
+      213: 8689837446773104681
+    second: castle5
   - first:
-      213: -7684691248679950600
-    second: brick1
+      213: -5540563324002378607
+    second: castle6
   - first:
-      213: -2304555971641990866
-    second: brick2
+      213: -523629882921690409
+    second: castle7
   - first:
-      213: -3158620852240148551
-    second: newground0
+      213: -5921318518450206066
+    second: mountain0
   - first:
-      213: 1524132539224333271
-    second: newground1
+      213: 3588797972311011879
+    second: mountain1
   - first:
-      213: 8019166824717043469
-    second: tree0
+      213: 4677941670502811583
+    second: mountain2
   - first:
-      213: -5733378627629167336
-    second: tree2
+      213: -1292678885525339703
+    second: mountain3
   - first:
-      213: -74588711554797053
-    second: tree3
+      213: 5770919058755273367
+    second: mountain4
   - first:
-      213: -9116270034028935546
-    second: bigtree0
+      213: -485850319188118335
+    second: mountain5
   - first:
-      213: -2153258924154104197
-    second: bigtree1
+      213: 7661266317325897294
+    second: mountain6
   - first:
-      213: 3351919237785163161
-    second: bitree2
+      213: -3557685394308564761
+    second: mountain7
   - first:
-      213: -4119900473612040160
-    second: bigtree3
+      213: -4896900466198313679
+    second: mountain8
   - first:
-      213: -8393461780533733384
-    second: bigtree4
+      213: -3902121746625736578
+    second: grass0
   - first:
-      213: 3840463440633857644
-    second: bigtree5
+      213: 2886471128891386311
+    second: grass1
   - first:
-      213: -4157757067725115431
-    second: bigtree6
+      213: -248279826786949612
+    second: grass2
   - first:
-      213: 8705481846499792179
-    second: bigtree7
+      213: -6959342708738888209
+    second: bloque_incognita
   - first:
-      213: -3204162267498027014
-    second: bigtree8
+      213: 9008232839756062621
+    second: tuberia0
   - first:
-      213: -6203811193167480818
-    second: trunk0
+      213: -8485650422887192030
+    second: tuberia1
   - first:
-      213: -4970737767986594503
-    second: flower1
+      213: -8435286205652542299
+    second: tuberia2
   - first:
-      213: -7299734591580005801
-    second: flower0
-  - first:
-      213: -7778852674703235649
-    second: trunk1
-  - first:
-      213: 4928476990801355829
-    second: trunk2
+      213: -4839114295151593519
+    second: tuberia3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -130,7 +124,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -187,13 +181,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ground1
+      name: "bloque_monta\xF1a"
       rect:
         serializedVersion: 2
-        x: 704
-        y: 736
-        width: 32
-        height: 32
+        x: 86
+        y: 268
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -201,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a8281962aefe9c00800000000000000
-      internalID: 909444148276766886
+      spriteID: 4ffd846b7ee0d5590800000000000000
+      internalID: -7683969000865734668
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ground2
+      name: castle0
       rect:
         serializedVersion: 2
-        x: 736
-        y: 736
-        width: 32
-        height: 32
+        x: 69
+        y: 217
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,20 +216,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b26fda20705b591d0800000000000000
-      internalID: -3344568106538371541
+      spriteID: 86a3e7f845bafb650800000000000000
+      internalID: 6250903187486554728
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ground3
+      name: castle1
       rect:
         serializedVersion: 2
-        x: 768
-        y: 736
-        width: 32
-        height: 32
+        x: 86
+        y: 217
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -243,20 +237,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63d2f44f0f5009dc0800000000000000
-      internalID: -3634398366838870730
+      spriteID: 9aa593cba3b52bcc0800000000000000
+      internalID: -3696792036293649751
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ground4
+      name: castle2
       rect:
         serializedVersion: 2
-        x: 800
-        y: 736
-        width: 32
-        height: 32
+        x: 103
+        y: 217
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -264,20 +258,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cf6f84b4101156e0800000000000000
-      internalID: -1850680290757873719
+      spriteID: 951639685298d4650800000000000000
+      internalID: 6218777454733123929
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ground5
+      name: castle3
       rect:
         serializedVersion: 2
-        x: 832
-        y: 736
-        width: 32
-        height: 32
+        x: 69
+        y: 200
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -285,20 +279,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0677b834166daa710800000000000000
-      internalID: 1705411122146539360
+      spriteID: f0ee2769728693c80800000000000000
+      internalID: -8342522315490005489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: brick0
+      name: castle4
       rect:
         serializedVersion: 2
-        x: 384
-        y: 608
-        width: 32
-        height: 32
+        x: 86
+        y: 200
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -306,20 +300,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: effac2b59259a8a90800000000000000
-      internalID: -7310867040226725890
+      spriteID: fd0cba3d122294b30800000000000000
+      internalID: 4271983250218139871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tree0
+      name: castle5
       rect:
         serializedVersion: 2
-        x: 842
-        y: 0
-        width: 32
-        height: 32
+        x: 103
+        y: 200
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,20 +321,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 018f6c3ace4963540800000000000000
-      internalID: 4987337381440321552
+      spriteID: 9206ccafd11889870800000000000000
+      internalID: 8689837446773104681
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: brick1
+      name: castle6
       rect:
         serializedVersion: 2
-        x: 480
-        y: 544
-        width: 32
-        height: 32
+        x: 35
+        y: 234
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -348,20 +342,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f6e0e9460e7a5590800000000000000
-      internalID: -7684691248679950600
+      spriteID: 19cd7411307fb13b0800000000000000
+      internalID: -5540563324002378607
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: brick2
+      name: castle7
       rect:
         serializedVersion: 2
-        x: 384
-        y: 512
-        width: 32
-        height: 32
+        x: 18
+        y: 234
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -369,20 +363,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e212649cd829400e0800000000000000
-      internalID: -2304555971641990866
+      spriteID: 7da5ca25561bbb8f0800000000000000
+      internalID: -523629882921690409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: newground0
+      name: mountain0
       rect:
         serializedVersion: 2
-        x: 224
-        y: 672
-        width: 32
-        height: 32
+        x: 137
+        y: 234
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -390,20 +384,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b7951ae1135a24d0800000000000000
-      internalID: -3158620852240148551
+      spriteID: e8a45d11e2043dda0800000000000000
+      internalID: -5921318518450206066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: newground1
+      name: mountain1
       rect:
         serializedVersion: 2
-        x: 192
-        y: 672
-        width: 32
-        height: 32
+        x: 154
+        y: 234
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -411,20 +405,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7db941f187ec62510800000000000000
-      internalID: 1524132539224333271
+      spriteID: 7227d36ddb8fdc130800000000000000
+      internalID: 3588797972311011879
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tree1
+      name: mountain2
       rect:
         serializedVersion: 2
-        x: 842
-        y: 32
-        width: 32
-        height: 32
+        x: 171
+        y: 234
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -432,20 +426,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d074bdd5dbdc94f60800000000000000
-      internalID: 8019166824717043469
+      spriteID: fb7415e1a236be040800000000000000
+      internalID: 4677941670502811583
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tree2
+      name: mountain3
       rect:
         serializedVersion: 2
-        x: 874
-        y: 32
-        width: 32
-        height: 32
+        x: 188
+        y: 234
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -453,20 +447,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81dc851d382fe60b0800000000000000
-      internalID: -5733378627629167336
+      spriteID: 9c14d9b076b7f0ee0800000000000000
+      internalID: -1292678885525339703
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tree3
+      name: mountain4
       rect:
         serializedVersion: 2
-        x: 874
-        y: 0
-        width: 32
-        height: 32
+        x: 205
+        y: 234
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -474,20 +468,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 302b58746f107fef0800000000000000
-      internalID: -74588711554797053
+      spriteID: 792c3acee4c661050800000000000000
+      internalID: 5770919058755273367
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bigtree0
+      name: mountain5
       rect:
         serializedVersion: 2
-        x: 736
-        y: 0
-        width: 32
-        height: 32
+        x: 154
+        y: 251
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -495,20 +489,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 686ca2144b08c7180800000000000000
-      internalID: -9116270034028935546
+      spriteID: 1c438c675b9e149f0800000000000000
+      internalID: -485850319188118335
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bigtree1
+      name: mountain6
       rect:
         serializedVersion: 2
-        x: 768
-        y: 0
-        width: 32
-        height: 32
+        x: 171
+        y: 251
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -516,20 +510,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b76da5cba661e12e0800000000000000
-      internalID: -2153258924154104197
+      spriteID: e4e00eddf19425a60800000000000000
+      internalID: 7661266317325897294
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bitree2
+      name: mountain7
       rect:
         serializedVersion: 2
-        x: 800
-        y: 0
-        width: 32
-        height: 32
+        x: 188
+        y: 251
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -537,20 +531,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9959bfb99c8648e20800000000000000
-      internalID: 3351919237785163161
+      spriteID: 7e874a9bbff80aec0800000000000000
+      internalID: -3557685394308564761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bigtree3
+      name: mountain8
       rect:
         serializedVersion: 2
-        x: 736
-        y: 32
-        width: 32
-        height: 32
+        x: 171
+        y: 268
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -558,20 +552,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0280460f85c23d6c0800000000000000
-      internalID: -4119900473612040160
+      spriteID: 1350ecb88f6ba0cb0800000000000000
+      internalID: -4896900466198313679
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bigtree4
+      name: grass0
       rect:
         serializedVersion: 2
-        x: 768
-        y: 32
-        width: 32
-        height: 32
+        x: 222
+        y: 234
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -579,20 +573,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f718772bfe648b80800000000000000
-      internalID: -8393461780533733384
+      spriteID: e70db0e12f0e8d9c0800000000000000
+      internalID: -3902121746625736578
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bigtree5
+      name: grass1
       rect:
         serializedVersion: 2
-        x: 800
-        y: 32
-        width: 32
-        height: 32
+        x: 239
+        y: 234
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -600,20 +594,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c660bdfc6211c4530800000000000000
-      internalID: 3840463440633857644
+      spriteID: 7c9edf3d23ece0820800000000000000
+      internalID: 2886471128891386311
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bigtree6
+      name: grass2
       rect:
         serializedVersion: 2
-        x: 736
-        y: 64
-        width: 32
-        height: 32
+        x: 256
+        y: 234
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -621,20 +615,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9dfefd3c9fdac46c0800000000000000
-      internalID: -4157757067725115431
+      spriteID: 416e77f10deed8cf0800000000000000
+      internalID: -248279826786949612
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bigtree7
+      name: bloque_incognita
       rect:
         serializedVersion: 2
-        x: 768
-        y: 64
-        width: 32
-        height: 32
+        x: 1
+        y: 268
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -642,134 +636,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3355b33ad9510d870800000000000000
-      internalID: 8705481846499792179
+      spriteID: fede967bda27b6f90800000000000000
+      internalID: -6959342708738888209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bigtree8
+      name: tuberia0
       rect:
         serializedVersion: 2
-        x: 800
-        y: 64
-        width: 32
-        height: 32
+        x: 103
+        y: 285
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af7e113e4678883d0800000000000000
-      internalID: -3204162267498027014
+      spriteID: d9f1ba34a0ca30d70800000000000000
+      internalID: 9008232839756062621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: trunk0
+      name: tuberia1
       rect:
         serializedVersion: 2
-        x: 384
-        y: 127
-        width: 32
-        height: 32
+        x: 120
+        y: 285
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e08f8a9c692a7e9a0800000000000000
-      internalID: -6203811193167480818
+      spriteID: 22a6aa736e9ec3a80800000000000000
+      internalID: -8485650422887192030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flower1
+      name: tuberia2
       rect:
         serializedVersion: 2
-        x: 384
-        y: 867
-        width: 32
-        height: 32
+        x: 103
+        y: 268
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93d7a8b0654640bb0800000000000000
-      internalID: -4970737767986594503
+      spriteID: 5acd35553e7dfea80800000000000000
+      internalID: -8435286205652542299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flower0
+      name: tuberia3
       rect:
         serializedVersion: 2
-        x: 448
-        y: 450
-        width: 32
-        height: 32
+        x: 120
+        y: 268
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75a1e3a801222ba90800000000000000
-      internalID: -7299734591580005801
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: trunk1
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 127
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb5673cd4b6fb0490800000000000000
-      internalID: -7778852674703235649
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: trunk2
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 127
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 534a66006b7756440800000000000000
-      internalID: 4928476990801355829
+      spriteID: 1d779f1ff2308dcb0800000000000000
+      internalID: -4839114295151593519
       vertices: []
       indices: 
       edges: []
